@@ -1,3 +1,4 @@
-const number = require('./services/number')
+const { sumArray } = require('./services/number')
 
-number()
+const result = sumArray(1, 2)
+console.log(result)

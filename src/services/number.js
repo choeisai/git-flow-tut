@@ -1,6 +1,5 @@
-function sumArray() {
-  console.log('Not implement yet!')
-  console.log('Not implement another service')
+function sumArray(number1, number2) {
+  return number1 + number2
 }
 
-module.exports = sumArray
+module.exports = { sumArray }
